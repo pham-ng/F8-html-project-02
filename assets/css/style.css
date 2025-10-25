@@ -688,12 +688,14 @@ color: #171100;
 	display: flex;
 	gap: 0 30px;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
 .blog .item {
-	width: 33.33%;
+	width: calc(33.33% - 20px);
 	border-radius: 16px;
 	background: #FFFCF4;
+	flex-shrink: 0;
 	
 }
 
