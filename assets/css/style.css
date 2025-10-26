@@ -85,6 +85,8 @@ a{
 	line-height: 48px; /* 126.316% */
 } 
 
+
+
 /*Header*/
 .header{
 	background: #FFFCF4;
@@ -798,4 +800,95 @@ color: #171100;
 .blog .dot.active{
 	background: var(--color--primary);
 	cursor: default;
+}
+
+/*Footer*/	
+
+.footer {
+	padding: 96px 135px 0;
+	background: url("/assets/img/parabol.jpg") no-repeat center center;
+	background-size: cover;
+	object-fit: cover;
+  }
+
+.footer .row{
+	display: flex;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #59554B;;
+}
+
+
+.footer .row .column {
+	width: 22%;
+}
+.footer .row .column:first-child {
+	width: 35%;
+}
+
+.footer .desc{
+	width: 350px;
+	height: 78px;
+	margin-top: 16px;
+	
+	color: #BFBCB2;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px; /* 185.714% */
+
+}
+
+.footer .socials{
+	margin-top: 18px;
+	display: flex;
+	gap: 0 18px;
+}
+
+
+.footer .title{
+	display: inline-block;
+	padding: 0 48px 14px 0 ;
+	color: #FFF;
+	border-bottom: 1px solid #59554B ;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 28px; /* 175% */
+}
+
+.footer .list{
+	margin-top: 28px;
+}
+
+.footer .list a{
+	display: inline-block;
+	margin-bottom: 12px;
+	color: #BFBCB2;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px; /* 185.714% */
+}
+
+.footer .list strong{
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 26px; /* 185.714% */
+}
+
+.footer .copyright{
+	padding: 28px 0;
+	color: #807D74;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px; /* 185.714% */
 }
