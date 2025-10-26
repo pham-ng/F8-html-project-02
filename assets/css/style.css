@@ -814,7 +814,7 @@ color: #171100;
 .footer .row{
 	display: flex;
 	padding-bottom: 26px;
-	border-bottom: 1px solid #59554B;;
+	border-bottom: 1px solid #fff;
 }
 
 
@@ -830,7 +830,7 @@ color: #171100;
 	height: 78px;
 	margin-top: 16px;
 	
-	color: #BFBCB2;
+	color: #fff;
 	font-family: Poppins;
 	font-size: 18px;
 	font-style: normal;
@@ -850,9 +850,9 @@ color: #171100;
 	display: inline-block;
 	padding: 0 48px 14px 0 ;
 	color: #FFF;
-	border-bottom: 1px solid #59554B ;
+	border-bottom: 1px solid #fff ;
 	font-family: Poppins;
-	font-size: 16px;
+	font-size: 25px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 28px; /* 175% */
@@ -865,7 +865,7 @@ color: #171100;
 .footer .list a{
 	display: inline-block;
 	margin-bottom: 12px;
-	color: #BFBCB2;
+	color: #fff;
 	font-family: Poppins;
 	font-size: 14px;
 	font-style: normal;
@@ -884,7 +884,7 @@ color: #171100;
 
 .footer .copyright{
 	padding: 28px 0;
-	color: #807D74;
+	color: #fff;
 	text-align: center;
 	font-family: Poppins;
 	font-size: 14px;
