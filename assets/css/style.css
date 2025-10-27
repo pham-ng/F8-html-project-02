@@ -806,9 +806,7 @@ color: #171100;
 
 .footer {
 	padding: 96px 135px 0;
-	background: url("/assets/img/parabol.jpg") no-repeat center center;
-	background-size: cover;
-	object-fit: cover;
+	background:#AD001D;
   }
 
 .footer .row{
